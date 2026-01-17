@@ -49,16 +49,25 @@ body {
     margin-bottom: 15px;
 }
 
+.social-links {
+  margin-top: 20px;
+}
+
 .social-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: 600;
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e90ff;   /* Professional blue */
+  font-size: 16px;
+  transition: 0.3s;
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+  color: #0b5ed7;
+  text-decoration: underline;
 }
+
 
 /* SECTIONS */
 section {
