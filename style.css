@@ -49,24 +49,28 @@ body {
     margin-bottom: 15px;
 }
 
+/* SOCIAL LINKS - PRO LOOK */
 .social-links {
-  margin-top: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .social-links a {
-  display: inline-block;
-  margin-right: 15px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #1e90ff;   /* Professional blue */
-  font-size: 16px;
-  transition: 0.3s;
+    display: inline-block;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1e90ff;   /* Blue color */
+    font-size: 16px;
+    transition: color 0.3s, transform 0.3s;
 }
 
 .social-links a:hover {
-  color: #0b5ed7;
-  text-decoration: underline;
+    color: #0b5ed7;           /* Darker blue on hover */
+    text-decoration: underline;
+    transform: scale(1.1);     /* slight zoom effect */
 }
+
 
 
 /* SECTIONS */
